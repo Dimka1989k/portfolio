@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio.git/static/css/main.fe4ef8b4.css",
+    "main.js": "/portfolio.git/static/js/main.ae2c3d37.js",
+    "static/media/hounter.png": "/portfolio.git/static/media/hounter.979483d2a7917f0c703d.png",
+    "static/media/HomeProject.png": "/portfolio.git/static/media/HomeProject.e2377eaf24a0f36da7aa.png",
+    "static/media/Weather.png": "/portfolio.git/static/media/Weather.9aaa4d51d79636c6f6ea.png",
+    "static/media/ImageGallery.jpg": "/portfolio.git/static/media/ImageGallery.a8e361b14c0906d6da98.jpg",
+    "static/media/EventBooster.jpg": "/portfolio.git/static/media/EventBooster.503dae1929e0d71daece.jpg",
+    "static/media/WebStudio.jpg": "/portfolio.git/static/media/WebStudio.eb53922a832fea576edc.jpg",
+    "static/media/Petly.jpg": "/portfolio.git/static/media/Petly.ecdd4d31c23ce680f90b.jpg",
+    "static/media/Movie.jpg": "/portfolio.git/static/media/Movie.c5dbe7f59814a3db9744.jpg",
+    "static/media/IceCream.jpg": "/portfolio.git/static/media/IceCream.87ad99f3f574e08f09c8.jpg",
+    "static/media/PhoneBook.jpg": "/portfolio.git/static/media/PhoneBook.eccf563521e1b30dc480.jpg",
+    "static/media/Post.png": "/portfolio.git/static/media/Post.fcb3e50719d421502d01.png",
+    "static/media/Kapusta.jpg": "/portfolio.git/static/media/Kapusta.df3841b698df8a43d12e.jpg",
+    "static/media/Countries.png": "/portfolio.git/static/media/Countries.e01397c7e2122b1ae016.png",
+    "index.html": "/portfolio.git/index.html",
+    "main.fe4ef8b4.css.map": "/portfolio.git/static/css/main.fe4ef8b4.css.map",
+    "main.ae2c3d37.js.map": "/portfolio.git/static/js/main.ae2c3d37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe4ef8b4.css",
+    "static/js/main.ae2c3d37.js"
+  ]
+}
