@@ -38,15 +38,14 @@ function App() {
       )}
 
       <NavBAr />
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/skills" element={<Skills />} />
-        </Routes>
-      </div>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/skills" element={<Skills />} />
+      </Routes>
     </div>
   );
 }
