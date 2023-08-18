@@ -4,7 +4,6 @@ import Home from "./containers/home";
 import About from "./containers/about/index";
 import Portfolio from "./containers/portfolio/index";
 import Resume from "./containers/resume/index";
-import Skills from "./containers/skills/index";
 
 import NavBAr from "./component/navBar";
 import { useCallback } from "react";
@@ -44,7 +43,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/skills" element={<Skills />} />
       </Routes>
     </div>
   );

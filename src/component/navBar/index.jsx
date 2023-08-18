@@ -16,10 +16,6 @@ const data = [
   },
 
   {
-    label: "SKILLS",
-    to: "/sKills",
-  },
-  {
     label: "PORTFOLIO",
     to: "/portfolio",
   },
