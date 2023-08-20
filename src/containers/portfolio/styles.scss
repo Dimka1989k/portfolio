@@ -70,6 +70,7 @@
 
                 }
                 .overlay {
+                
                     position: absolute;
                         top: 0;
                         right: 0;
@@ -84,14 +85,12 @@
                             
 
                             div {
-                                display: block;
+                                display: flex;
+                                flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
                                 margin-top: 120px;
-                                    // position: absolute;
-                                    // right: 10%;                                    
-                                    // top: 50%;                                                                     
-                                    // transform: translate(-50%, -50%);
+                                  
                                     text-align: center;
                                     p{
                                         color: var(--team-backgrond-color);

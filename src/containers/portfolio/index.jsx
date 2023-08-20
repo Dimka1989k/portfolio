@@ -24,6 +24,7 @@ const portfolioData = [
     name: "EventBooster",
     image: image2,
     link: "https://jekiekolya.github.io/Command-project-JS/index.html",
+    linkHithub: "https://github.com/Dimon1989k/goit-markup-hw-08",
   },
 
   {
@@ -31,60 +32,70 @@ const portfolioData = [
     name: "IceCream",
     image: image3,
     link: "https://nikolaylyah.github.io/goit-final/",
+    linkHithub: "https://github.com/Nikolaylyah/goit-final",
   },
   {
     id: 2,
     name: "ImageGallery",
     image: image4,
     link: "https://dimon1989k.github.io/goit-react-hw-03-image-finder/",
+    linkHithub: "https://github.com/Dimon1989k/goit-react-hw-04-images",
   },
   {
     id: 3,
     name: "Kapusta",
     image: image5,
     link: "https://hodosovsky.github.io/kapusta/login",
+    linkHithub: "https://github.com/hodosovsky/kapusta",
   },
   {
     id: 2,
     name: "Movie",
     image: image6,
     link: "https://dimon1989k.github.io/goit-react-hw-05-movies/",
+    linkHithub: "https://github.com/Dimon1989k/goit-react-hw-05-movies",
   },
   {
     id: 3,
     name: "Petly",
     image: image7,
     link: "https://petly-project-app.netlify.app/",
+    linkHithub: "https://github.com/volodymyr-ok/petly-project",
   },
   {
     id: 2,
     name: "Phonebook",
     image: image8,
     link: "https://dimon1989k.github.io/goit-react-hw-08-phonebook/",
+    linkHithub: "https://github.com/Dimon1989k/goit-react-hw-08-phonebook,",
   },
   {
     id: 3,
     name: "WebStudio",
     image: image9,
     link: "https://dimon1989k.github.io/goit-markup-hw-08/",
+    linkHithub: "https://github.com/Dimon1989k/goit-markup-hw-08,",
   },
   {
     id: 2,
     name: "Countries",
     image: image10,
     link: "https://dimon1989k.github.io/goit-js-hw-10/",
+    linkHithub: "https://github.com/Dimon1989k/goit-js-hw-10",
   },
   {
     id: 2,
     name: "Weather",
     image: image11,
     link: "https://dimon1989k.github.io/weather/",
+    linkHithub: "https://github.com/Dimon1989k/weather",
   },
   {
     id: 3,
     name: "Hounter",
     image: image12,
     link: "https://dimon1989k.github.io/test-remote/",
+    linkHithub: "https://github.com/Dimon1989k/test-remote",
   },
 
   {
@@ -92,6 +103,7 @@ const portfolioData = [
     name: "Home Project",
     image: image13,
     link: "https://dimon1989k.github.io/test-Smart/",
+    linkHithub: "https://github.com/Dimon1989k/test-Smart",
   },
 
   {
@@ -99,6 +111,7 @@ const portfolioData = [
     name: "Нова Пошта",
     image: image14,
     link: "https://dimon1989k.github.io/test-sameit/",
+    linkHithub: "https://github.com/Dimon1989k/test-sameit",
   },
 ];
 
@@ -136,6 +149,9 @@ const Portfolio = () => {
                       <p>{item.name}</p>
                       <button onClick={() => window.open(item.link)}>
                         VISIT
+                      </button>
+                      <button onClick={() => window.open(item.linkHithub)}>
+                        VISIT GITHUB
                       </button>
                     </div>
                   )}
