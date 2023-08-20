@@ -29,6 +29,15 @@ const personalDetails = [
     label: "Contact No:",
     value: "+38095 865 64 62",
   },
+
+  {
+    label: "GitHub:",
+    value: "https://github.com/Dimon1989k?tab=repositories",
+  },
+  {
+    label: "linkedin:",
+    value: "https://www.linkedin.com/in/kyselyovdmitry/",
+  },
 ];
 
 const jobSummary =
