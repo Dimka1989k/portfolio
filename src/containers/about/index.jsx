@@ -1,6 +1,12 @@
 import PageHeaderContent from "./../../component/pageHeaderContent/index";
 import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate } from "react-simple-animate";
+import { FaGithub } from "react-icons/fa";
+
+import { BsLinkedin } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { Link } from "react-router-dom";
+
 import "./styles.scss";
 import {
   DiHtml5,
@@ -28,15 +34,6 @@ const personalDetails = [
   {
     label: "Contact No:",
     value: "+38095 865 64 62",
-  },
-
-  {
-    label: "GitHub:",
-    value: "https://github.com/Dimon1989k?tab=repositories",
-  },
-  {
-    label: "linkedin:",
-    value: "https://www.linkedin.com/in/kyselyovdmitry/",
   },
 ];
 
@@ -86,6 +83,23 @@ const About = () => {
                 </li>
               ))}
             </ul>
+            <div style={{ display: "flex", gap: "30px" }}>
+              <Link to="https://github.com/Dimon1989k" className="button">
+                <FaGithub className="icon" />
+              </Link>
+              <Link
+                to="https://www.linkedin.com/in/kyselyovdmitry/"
+                className="button-linkedin"
+              >
+                <BsLinkedin className="icon" />
+              </Link>
+              <Link
+                to="https://www.facebook.com/profile.php?id=100018194863274"
+                className="button-linkedin"
+              >
+                <BsFacebook className="icon" />
+              </Link>
+            </div>
           </Animate>
         </div>
         <div className="about__content__servicesWraper">
