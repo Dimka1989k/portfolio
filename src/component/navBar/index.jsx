@@ -17,7 +17,7 @@ const data = [
 
   {
     label: "PORTFOLIO",
-    to: "/portfolio",
+    to: "/myportfolio",
   },
   {
     label: "RESUME",
