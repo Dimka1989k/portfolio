@@ -148,7 +148,7 @@ const Portfolio = () => {
                     <div>
                       <p>{item.name}</p>
                       <button onClick={() => window.open(item.link)}>
-                        VISIT
+                        VISIT WEBSITE
                       </button>
                       <button onClick={() => window.open(item.linkHithub)}>
                         VISIT GITHUB
