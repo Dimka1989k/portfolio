@@ -95,7 +95,7 @@
                                     p{
                                         color: var(--team-backgrond-color);
                                             margin: 0px;
-                                            font-size: 4rem;
+                                            font-size: 3rem;
                                             overflow: hidden;                                            
                                             position: relative;
                                             white-space: nowrap;
@@ -111,7 +111,7 @@
                                     button {
                                         cursor: pointer;
                                             margin-top: 16px;
-                                            padding: 10px 70px;
+                                            padding: 10px 40px;
                                             font-size: 2rem;
                                             background-color: transparent;                                           
                                             border: 1.5px solid #000000;
@@ -146,33 +146,38 @@
       }
   }
 
-@media only screen and (max-width: 480px) {
-    .portfolio__content__filter > li {
-        font-size:  11px;
+@media only screen and (max-width: 480px) {  
+  
 
-    }
+        .portfolio__content-cards {
+            display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-auto-rows: auto;
+                gap: 1rem;
+                margin-top: 10px;
 
-    .portfolio__content__cards {
-        grid-template-columns: repeat(1, 1fr);
-    }
+        }
+
+
+       
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px){
-    .portfolio__content__filter>li {
-        font-size: 14px;
+   
 
-    }
-
-    .portfolio__content__cards {
+    .portfolio__content-cards {
         grid-template-columns: repeat(2, 1fr);
         &__item {
             .overlay{
-                div>p {
+                div>p {                    
                     font-size: 2.5rem;
                 }
             }
         }
     }
 
+
    
 }
+
+
