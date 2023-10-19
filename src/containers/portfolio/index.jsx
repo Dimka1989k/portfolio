@@ -67,14 +67,14 @@ const portfolioData = [
     name: "Phonebook",
     image: image8,
     link: "https://dimon1989k.github.io/goit-react-hw-08-phonebook/",
-    linkHithub: "https://github.com/Dimon1989k/goit-react-hw-08-phonebook,",
+    linkHithub: "https://github.com/Dimon1989k/goit-react-hw-08-phonebook",
   },
   {
     id: 3,
     name: "WebStudio",
     image: image9,
     link: "https://dimon1989k.github.io/goit-markup-hw-08/",
-    linkHithub: "https://github.com/Dimon1989k/goit-markup-hw-08,",
+    linkHithub: "https://github.com/Dimon1989k/goit-markup-hw-08",
   },
   {
     id: 2,
