@@ -36,7 +36,7 @@ const portfolioData = [
   },
   {
     id: 2,
-    name: "ImageGallery",
+    name: "Image Gallery",
     image: image4,
     link: "https://dimon1989k.github.io/goit-react-hw-03-image-finder/",
     linkHithub: "https://github.com/Dimon1989k/goit-react-hw-04-images",
