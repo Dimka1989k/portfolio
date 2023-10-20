@@ -70,6 +70,12 @@
 
                 }
                 .overlay {
+                    h1 {
+                        margin-top: 10px;
+                        font-size: 14px;
+                        max-width: 300px;
+                        padding: 0 10px
+                    }
                 
                     position: absolute;
                         top: 0;
@@ -89,10 +95,10 @@
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                margin-top: 110px;
+                                margin-top: 40px;
                                   
                                     text-align: center;
-                                    p{
+                                    p {
                                         color: var(--team-backgrond-color);
                                             margin: 0px;
                                             font-size: 3rem;
