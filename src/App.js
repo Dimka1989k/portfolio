@@ -1,6 +1,6 @@
 import "./App.scss";
 import { Routes, Route, useLocation } from "react-router-dom";
-import Home from "./containers/home";
+import Home from "./containers/home/index";
 import About from "./containers/about/index";
 import Portfolio from "./containers/portfolio/index";
 import Resume from "./containers/resume/index";
