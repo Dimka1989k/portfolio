@@ -15,6 +15,8 @@ import image11 from "../../images/Weather.png";
 import image12 from "../../images/hounter.png";
 import image13 from "../../images/HomeProject.png";
 import image14 from "../../images/Post.png";
+import image15 from "../../images/Generator.png";
+import image16 from "../../images/GOHOME.png";
 
 import "./styles.scss";
 
@@ -28,6 +30,24 @@ const portfolioData = [
     description:
       "The application for searching branch locations and their shedule, as well as tracking the status of shipment tracking numbers (TTN).",
     tech: "[React, RTK, Styled-Components]",
+  },
+  {
+    id: 2,
+    name: "Gohome",
+    image: image16,
+    link: "https://dimka1989k.github.io/gohome-vue-project/",
+    linkHithub: "https://github.com/Dimka1989k/gohome-vue-project",
+    description: "Simple Apartment Booking Websit",
+    tech: "[Vue.js, Vuex, SCSS]",
+  },
+  {
+    id: 1,
+    name: "Image Generator",
+    image: image15,
+    link: "https://dimka1989k.github.io/image-generator/",
+    linkHithub: "https://github.com/Dimka1989k/image-generator",
+    description: "Simple Image Generator",
+    tech: "[React, CSS]",
   },
   {
     id: 2,
