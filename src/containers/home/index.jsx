@@ -6,7 +6,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate("./about");
+    navigate("/about");
   };
   return (
     <section id="Home" className="home">

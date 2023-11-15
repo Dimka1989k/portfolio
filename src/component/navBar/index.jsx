@@ -8,16 +8,16 @@ import "./styles.scss";
 const data = [
   {
     label: "HOME",
-    to: "/",
+    to: "/portfolio",
   },
   {
-    label: "ABOUT ME/CONTACTS",
+    label: "ABOUT ME",
     to: "/about",
   },
 
   {
     label: "PORTFOLIO",
-    to: "/portfolio",
+    to: "/myportfolio",
   },
   {
     label: "RESUME",
@@ -36,7 +36,7 @@ const NavBAr = () => {
       <div>
         <nav className="navbar">
           <div className="navbar__container">
-            <Link to={"/"} className="navbar__container__logo">
+            <Link to={"/portfolio"} className="navbar__container__logo">
               <SlUserFollowing size={30} />
             </Link>
           </div>

@@ -21,7 +21,7 @@ const Resume = () => {
       />
       <div className="timeline">
         <div className="timeline__experience">
-          <h3 className="timeline__experience__header-text">Experience</h3>
+          <h3 className="timeline__experience__header-text">Work experience</h3>
           <VerticalTimeline
             layout={"1-column"}
             lineColor="var(--team-main-color)"

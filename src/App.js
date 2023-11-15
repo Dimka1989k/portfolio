@@ -23,7 +23,7 @@ function App() {
     await console.log(container);
   }, []);
 
-  const renderParticleНоme = location.pathname === "/";
+  const renderParticleНоme = location.pathname === "/portfolio";
 
   return (
     <div className="App">
@@ -39,9 +39,9 @@ function App() {
       <NavBAr />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/myportfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
     </div>

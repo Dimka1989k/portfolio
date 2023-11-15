@@ -84,7 +84,7 @@ const About = () => {
               ))}
             </ul>
             <div style={{ display: "flex", gap: "30px" }}>
-              <Link to="https://github.com/Dimon1989k" className="button">
+              <Link to="https://github.com/Dimka1989k" className="button">
                 <FaGithub className="icon" />
               </Link>
               <Link
