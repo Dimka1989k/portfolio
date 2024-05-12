@@ -86,7 +86,7 @@ const portfolioData = [
     link: "https://hodosovsky.github.io/kapusta/login",
     linkHithub: "https://github.com/hodosovsky/kapusta",
     description:
-      "The application to control your personal budget. Role: Developer. Logic and stylization of the login and registration window. Phonebook - The application to save search and delete phone numbers.",
+      "The application to control your personal budget. Role: Developer. Logic and stylization of the login and registration window.",
     tech: "[React, RTK, Styled-Components, Swagger]",
   },
   {
