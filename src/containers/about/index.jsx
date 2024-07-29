@@ -38,7 +38,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-  "Responsible and hard working person with ability to learn and collaborate in rapidly changing environment. Worked throught 170+ hours of IT Bootkamp course, learning HTML, CSS, JavaScript, React and Node.js. Currently developing my skills in TypeScript. Eager to tackle frontend development challenges to achive lasting impacts on user expierence. I am ready for new challenges and opportunities that may come way at company that is focused on solving complex problems and developing new technologies.";
+  "Responsible and hard working person with ability to learn and collaborate in rapidly changing environment. Worked throught 170+ hours of IT Bootkamp course, learning HTML, CSS, JavaScript, React and Node.js. Currently developing my skills in TypeScript. Eager to tuckle frontend development challenges to achive lasting impacts on user expierence. I am ready for new challenges and opportunities that may come way at company that is focused on solving complex problems and developing new technologies.";
 
 const About = () => {
   return (
