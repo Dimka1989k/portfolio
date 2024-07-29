@@ -9,7 +9,7 @@ export const data = {
       title:
         "National Academy of Public Administration under the President of Ukraine",
       subTitle: "Kyiv, Ukraine",
-      description: "Master's degree in Publick Administration | 2013-2016",
+      description: "Master's degree in Public Administration | 2013-2016",
     },
     {
       title:
