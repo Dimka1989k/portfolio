@@ -38,7 +38,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-  "Responsible and hard working person with ability to learn and collaborate in rapidly changing environment. Worked throught 170+ hours of IT Bootkamp course, learning HTML, CSS, JavaScript, React and Node.js. Currently developing my skills in TypeScript. Eager to tuckle frontend development challenges to achive lasting impacts on user expierence. I am ready for new challenges and opportunities that may come way at company that is focused on solving complex problems and developing new technologies.";
+  "Ambitious Junior Frontend Developer with a robust understanding of HTML, CSS, JavaScript, React, and Redux. I`ve developed a strong foundation in modern frontend technologies and am currently advancing my skills in TypeScript to create efficient, scalable solutions. My experience spans commercial projects through internships and freelance roles, where I refined my problem-solving abilities and adaptability. I’m driven by the challenge of building impactful, user-centric applications and look forward to joining a team that values innovation, responsibility, and excellence in development.";
 
 const About = () => {
   return (
