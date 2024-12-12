@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://Dimka1989k.github.io/portfolio",
+  "homepage": "https://dimka1989k.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,6 +47,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.2.0"
   }
 }
