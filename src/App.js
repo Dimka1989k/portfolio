@@ -5,8 +5,8 @@ import About from "./containers/about/index";
 import Portfolio from "./containers/portfolio/index";
 import Resume from "./containers/resume/index";
 
-import NavBAr from "./component/navBar";
-import { useCallback } from "react";
+import NavBar from "./component/navBar";
+import { useCallback, useEffect, useState } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
@@ -14,6 +14,7 @@ import particles from "./utils/particles";
 
 function App() {
   const location = useLocation();
+  const [renderParticleHome, setRenderParticleHome] = useState(false);
 
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
@@ -23,11 +24,13 @@ function App() {
     await console.log(container);
   }, []);
 
-  const renderParticleНоme = location.pathname === "/portfolio";
+  useEffect(() => {
+       setRenderParticleHome(location.pathname === "/portfolio");
+  }, [location.pathname]);
 
   return (
     <div className="App">
-      {renderParticleНоme && (
+      {renderParticleHome && (
         <Particles
           id="tsparticles"
           init={particlesInit}
@@ -36,7 +39,7 @@ function App() {
         />
       )}
 
-      <NavBAr />
+      <NavBar />
 
       <Routes>
         <Route path="/portfolio" element={<Home />} />

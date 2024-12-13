@@ -25,12 +25,17 @@ const data = [
   },
 ];
 
-const NavBAr = () => {
+const NavBar = () => {
   const [toogleIcon, setToogleIcon] = useState(false);
 
   const handleToogleIcon = () => {
     setToogleIcon(!toogleIcon);
   };
+
+  const closeMenu = () => {
+    setToogleIcon(false);
+  };
+
   return (
     <>
       <div>
@@ -48,6 +53,7 @@ const NavBAr = () => {
                 <Link
                   to={item.to}
                   className="navbar__container__menu__item__links"
+                  onClick={closeMenu} // Закриваємо меню при натисканні
                 >
                   {item.label}
                 </Link>
@@ -63,4 +69,4 @@ const NavBAr = () => {
   );
 };
 
-export default NavBAr;
+export default NavBar;

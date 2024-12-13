@@ -47,7 +47,7 @@ const Resume = () => {
                 <p className="vertical-timeline-element-title-wrapper-description">
                   {item.description}
                 </p>
-                <h4>{item.subTitle}</h4>
+                <h3>{item.subTitle}</h3>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
@@ -79,7 +79,7 @@ const Resume = () => {
                 <p className="vertical-timeline-element-title-wrapper-description">
                   {item.description}
                 </p>
-                <h4>{item.subTitle}</h4>
+                <h3>{item.subTitle}</h3>                
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
